@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Andy&#39;s Blog">
+    <meta name="description" content="https://www.significantly-insignificant.com">
+    <meta name="keywords" content="blog,personal">
+
+    <meta property="og:site_name" content="Andy&#39;s Blog">
+    <meta property="og:title" content="
+  Testing, attention please - Andy&#39;s Blog
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.significantly-insignificant.com/post/testing-attention-please/">
+    <meta property="og:image" content="https://www.significantly-insignificant.comimages/tn.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://www.significantly-insignificant.com/post/testing-attention-please/">
+    <meta name="twitter:image" content="https://www.significantly-insignificant.comimages/tn.png">
+
+    <base href="https://www.significantly-insignificant.com/post/testing-attention-please/">
+    <title>
+  Testing, attention please - Andy&#39;s Blog
+</title>
+
+    <link rel="canonical" href="https://www.significantly-insignificant.com/post/testing-attention-please/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="https://www.significantly-insignificant.com/css/normalize.min.css">
+    <link rel="stylesheet" href="https://www.significantly-insignificant.com/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://www.significantly-insignificant.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.significantly-insignificant.com/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://www.significantly-insignificant.com/index.xml" type="application/rss+xml" title="Andy&#39;s Blog">
+      <link href="https://www.significantly-insignificant.com/index.xml" rel="feed" type="application/rss+xml" title="Andy&#39;s Blog" />
+    
+
+    <meta name="generator" content="Hugo 0.59.1" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Andy&#39;s Blog</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://www.significantly-insignificant.com/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://www.significantly-insignificant.com/post">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://www.significantly-insignificant.com/essays">Essays</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Testing, attention please</h1>
+    </header>
+
+    <p>10:32pm</p>
+
+<p>Just bought the domain &ldquo;significantly-insignificant&rdquo; for about $11. Currently trying to upload a static version of this blog online. But holy shit is it hard. I&rsquo;ve spent literally the whole night fixing bugs and googling my way through how to build the site via Netlify, but goddam this is difficult.</p>
+
+<p>I&rsquo;m going to go through the &ldquo;rubber ducky&rdquo; approach, where I explain my troubleshooting &amp; thought process step by step:</p>
+
+<ol>
+<li>Open the R project directory, and created a public folder via the command &ldquo;blogdown::hugo_build()&ldquo;.</li>
+<li>Uploaded all the files within the public folder onto my github.</li>
+<li>Deployed the site via Netlify through the github repository.</li>
+</ol>
+
+<p>However, the error line &ldquo;Error running command: Build script returned non-zero exit code: 255&rdquo; always shows up.</p>
+
+<p>The problem is though, when I google this problem, the only solution suggestions that come up is related to the fact that others did not use the correct versions of Hugo. However, I&rsquo;m pretty sure that this isn&rsquo;t a problem in my case since I used both version control built within Netlify and an external netlify.toml file to try to bypass it.</p>
+
+<p>Currently don&rsquo;t know a workaround this, will probably consult Mitch next week regarding this problem and see what he thinks.</p>
+
+<p>10/11/2019 11:39am</p>
+
+<p>Ok don&rsquo;t actually need Mitch, just figured it out. Turns out I needed to upload the entre source code folder onto Github.</p>
+
+<p>I could&rsquo;ve saved myself ~4 hours of work if I actually read the instructions properly. Classic.</p>
+
+  </article>
+</section>
+
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fwww.significantly-insignificant.com%2fpost%2ftesting-attention-please%2f&ref_src=twsrc%5Etfw&text=Testing%2c%20attention%20please Andy%27s%20Blog&tw_p=tweetbutton&url=https%3a%2f%2fwww.significantly-insignificant.com%2fpost%2ftesting-attention-please%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2fwww.significantly-insignificant.com%2fpost%2ftesting-attention-please%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        
+        
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fwww.significantly-insignificant.com%2fpost%2ftesting-attention-please%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+    
+      <p>significantly insignificant</p>
+    
+     
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fwww.significantly-insignificant.com%2fpost%2ftesting-attention-please%2f&ref_src=twsrc%5Etfw&text=Testing%2c%20attention%20please Andy%27s%20Blog&tw_p=tweetbutton&url=https%3a%2f%2fwww.significantly-insignificant.com%2fpost%2ftesting-attention-please%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2fwww.significantly-insignificant.com%2fpost%2ftesting-attention-please%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        
+        
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fwww.significantly-insignificant.com%2fpost%2ftesting-attention-please%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="https://www.significantly-insignificant.com/js/app.js"></script>
+  
+  </body>
+</html>

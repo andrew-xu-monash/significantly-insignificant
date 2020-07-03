@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Andy&#39;s Blog</title>
+    <link>https://www.significantly-insignificant.com/post/</link>
+    <description>Recent content in Posts on Andy&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.significantly-insignificant.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Networking 101</title>
+      <link>https://www.significantly-insignificant.com/post/networking-101/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.significantly-insignificant.com/post/networking-101/</guid>
+      <description>Networking, as defined by the Oxford dictionary, is the &amp;ldquo;action or process of interacting with others to exchange information and develop professional or social contacts&amp;rdquo;.
+Networking, as defined by my past experiences, is the &amp;ldquo;action or process where I get to dress fancy and drink beers with professionals from prospective fields, however given that I&amp;rsquo;m a lightweight but also slightly alcoholic, slowly get drunk off like 2 pints whilst trying my hardest to remain professional and not slur while talking with the CEO of the biggest superannuation company in Austrlaia&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Testing, attention please</title>
+      <link>https://www.significantly-insignificant.com/post/testing-attention-please/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.significantly-insignificant.com/post/testing-attention-please/</guid>
+      <description>10:32pm
+Just bought the domain &amp;ldquo;significantly-insignificant&amp;rdquo; for about $11. Currently trying to upload a static version of this blog online. But holy shit is it hard. I&amp;rsquo;ve spent literally the whole night fixing bugs and googling my way through how to build the site via Netlify, but goddam this is difficult.
+I&amp;rsquo;m going to go through the &amp;ldquo;rubber ducky&amp;rdquo; approach, where I explain my troubleshooting &amp;amp; thought process step by step:</description>
+    </item>
+    
+  </channel>
+</rss>
