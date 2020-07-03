@@ -86,7 +86,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 2
     url  = "post"
 [[menu.main]]
-    name = "Essays & Ethics"
+    name = "Essays"
     weight = 3
     url  = "essays"
 [[menu.main]]
